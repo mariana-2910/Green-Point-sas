@@ -1,0 +1,16 @@
+@import "../utilidades/mixin";
+@import "../utilidades/extends";
+
+/* inicio estilos producto */
+.contenedor--productos{
+    @include display-flex(center, flex-start, 35px, row, wrap);
+ }
+ 
+ .carta {
+    transition: .3s;
+  }
+  .carta:hover {
+    transform: scale(1.05,1.05);
+  }
+
+/* fin estilos producto */

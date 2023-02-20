@@ -1,0 +1,59 @@
+@import "../utilidades/mixin";
+@import "../utilidades/extends";
+
+/* incio interes*/
+.noticia{
+    @include display-flex(center, flex-start, 24px, row, wrap);
+    padding-top: 32px;
+}
+
+.noticia h2{
+    background-color: $white;
+ }
+
+.noticia-texto p{
+    text-align: left;
+    margin-bottom: 16px;
+ }
+
+.noticia-texto{
+    width: 500px;
+ }
+
+ .noticia-dos{
+    @include display-flex(center, flex-start, 24px, row, wrap);
+    padding-top: 32px;
+ }
+
+ .noticia-dos h2{
+    background-color:$white;
+ }
+
+ .noticia-texto-dos p{
+    text-align: left;
+    margin-bottom: 16px;
+ }
+ 
+ .noticia-texto-dos{
+    width: 500px;
+    
+ }
+
+ .noticia-tres{
+    @include display-flex(center, flex-start, 24px, row, wrap);
+    padding-top: 32px;
+ }
+
+ .noticia-tres h2{
+    background-color:$white;
+ }
+ 
+ .noticia-texto-tres p{
+    text-align: left;
+    margin-bottom: 16px;
+ }
+ 
+ .noticia-texto-tres{
+    width: 500px;
+    
+ }
