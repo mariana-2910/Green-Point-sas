@@ -1,0 +1,6 @@
+/* inicio navbar */
+.navbar{
+    @include display-flex(start, start, 2rem, row, wrap);
+    padding: 16px 32px;
+    font-size: 20px;
+    }

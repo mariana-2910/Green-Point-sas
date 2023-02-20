@@ -1,0 +1,26 @@
+/* base */
+@import "base/_reset.sass";
+/* fin base */
+
+/* componentes */
+@import "componentes/banner";
+@import "componentes/botones";
+@import "componentes/carta";
+@import "componentes/footer";
+@import "componentes/header";
+/* fin componentes */
+
+/* utilidades */
+@import "utilidades/variables";
+@import "utilidades/mixin";
+@import "utilidades/extends";
+/* fin utilidades */
+
+/* vistas */
+@import "vistas/inicio";
+@import "vistas/nosotros";
+@import "vistas/producto";
+@import "vistas/interes";
+@import "vistas/contacto";
+/* vistas */
+
