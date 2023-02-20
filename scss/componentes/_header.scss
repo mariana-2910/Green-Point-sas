@@ -1,6 +1,32 @@
+@import "../utilidades/mixin";
+@import "../utilidades/extends";
 /* inicio navbar */
 .navbar{
-    @include display-flex(start, start, 2rem, row, wrap);
+    @include display-flex(space-between, center, 1rem, row, nowrap);
     padding: 16px 32px;
     font-size: 20px;
+    color: $principal;
     }
+
+.menu-navbar{
+    display: flex;
+    list-style: none;
+    grid-gap: 16px;
+    color: #027F3A;
+    }
+
+.navbar-nav {
+    background-color:$white;
+    margin-left: auto;
+    }
+
+.nav-item .nav-link {
+        color:$negro;
+        &:hover{
+            color: $principal;
+        }
+    }
+
+/* fin navbar*/
+
+
