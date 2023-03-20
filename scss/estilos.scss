@@ -1,6 +1,4 @@
-/* base */
-@import "base/_reset.sass";
-/* fin base */
+
 
 /* componentes */
 @import "componentes/banner";
@@ -23,4 +21,8 @@
 @import "vistas/interes";
 @import "vistas/contacto";
 /* vistas */
+
+/* base */
+@import "base/mq";
+/* fin base */
 

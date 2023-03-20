@@ -1,0 +1,29 @@
+@import "../utilidades/mixin";
+@import "../utilidades/extends";
+
+/* incio contacto*/
+
+.contenedor-formulario{
+    min-height: 60vh;
+}
+
+.formulario-contacto{
+    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.form-control{
+    border: 1px solid $principal;
+}
+ 
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}

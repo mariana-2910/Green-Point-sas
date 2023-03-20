@@ -2,7 +2,7 @@
 @import "../utilidades/extends";
 /* inicio navbar */
 .navbar{
-    @include display-flex(space-between, center, 1rem, row, nowrap);
+    // @include display-flex(space-between, center, 1rem, row, nowrap);
     padding: 16px 32px;
     font-size: 20px;
     color: $principal;

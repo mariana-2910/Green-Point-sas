@@ -23,17 +23,20 @@
 }
 
 .contenedor {
-    width: 98%;
+    background-color: $principal;
     max-width: 1300px;
     margin: 20px auto;
-
-    display: grid;
-    grid-gap: 28px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, auto);
     text-align: left;
     padding: 20px;
+    display: grid;
+    grid-gap: 32px;
+    grid-template-areas: 'left right'
+    'bottom bottom';
 }
+
+.contenido { grid-area: left; }
+.contenido-dos { grid-area: right; }
+.contenido-tres { grid-area: bottom; }
 
 .contenedor h2 {
     background-color: $principal-suave;
@@ -50,14 +53,13 @@
 
 .contenido-dos {
     text-align: center;
+    img {
+        width: 100%;
+    }
 }
 
 .contenido-tres {
-    grid-column-start: 1;
-    grid-column-end: 4;
     text-align: center;
-    width: 95%;
-    max-width: 1300px;
 }
 
 .frontal {
