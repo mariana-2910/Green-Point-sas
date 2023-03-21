@@ -3,7 +3,7 @@
 
 /* incio interes*/
 .noticia{
-    @include display-flex(center, flex-start, 24px, row, wrap);
+    @include display-flex(center, center, 24px, row, wrap);
     padding-top: 32px;
 }
 
@@ -21,7 +21,7 @@
  }
 
  .noticia-dos{
-    @include display-flex(center, flex-start, 24px, row, wrap);
+    @include display-flex(center, center, 24px, row, wrap);
     padding-top: 32px;
  }
 
@@ -40,7 +40,7 @@
  }
 
  .noticia-tres{
-    @include display-flex(center, flex-start, 24px, row, wrap);
+    @include display-flex(center, center, 24px, row, wrap);
     padding-top: 32px;
  }
 
@@ -57,3 +57,18 @@
     width: 500px;
     
  }
+
+.video iframe{
+   width: 500px; 
+   height: 280px;
+}
+
+.video-dos iframe{
+   width: 500px; 
+   height: 280px;
+}
+
+.video-tres iframe{
+   width: 500px; 
+   height: 280px;
+}
